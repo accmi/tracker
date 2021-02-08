@@ -29,6 +29,14 @@ struct trackerApp: App {
                     Image(systemName: "star.fill")
                     Text("Locations")
                 }
+                
+                NavigationView {
+                    TipsView()
+                }
+                .tabItem {
+                    Image(systemName: "list.bullet")
+                    Text("Tips")
+                }
             }
             .environmentObject(locations)
         }
