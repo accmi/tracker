@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C354F8025D155E000E2DF24 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C354F7F25D155DF00E2DF24 /* Tip.swift */; };
+		5C354F8325D156D700E2DF24 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C354F8225D156D700E2DF24 /* TipsView.swift */; };
 		5C65704225D084A300FDE9C0 /* trackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C65704125D084A300FDE9C0 /* trackerApp.swift */; };
 		5C65704425D084A300FDE9C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C65704325D084A300FDE9C0 /* ContentView.swift */; };
 		5C65704625D084AF00FDE9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C65704525D084AF00FDE9C0 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C354F7F25D155DF00E2DF24 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		5C354F8225D156D700E2DF24 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		5C65703E25D084A300FDE9C0 /* tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C65704125D084A300FDE9C0 /* trackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackerApp.swift; sourceTree = "<group>"; };
 		5C65704325D084A300FDE9C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				5C9521EC25D09FC700B42345 /* Location.swift */,
 				5C9521EF25D0A29500B42345 /* Locations.swift */,
 				5C9521F225D0A87000B42345 /* WorldView.swift */,
+				5C354F7F25D155DF00E2DF24 /* Tip.swift */,
+				5C354F8225D156D700E2DF24 /* TipsView.swift */,
 			);
 			path = tracker;
 			sourceTree = "<group>";
@@ -158,6 +164,8 @@
 				5C65704425D084A300FDE9C0 /* ContentView.swift in Sources */,
 				5C9521ED25D09FC700B42345 /* Location.swift in Sources */,
 				5C9521F325D0A87000B42345 /* WorldView.swift in Sources */,
+				5C354F8025D155E000E2DF24 /* Tip.swift in Sources */,
+				5C354F8325D156D700E2DF24 /* TipsView.swift in Sources */,
 				5C9521F025D0A29600B42345 /* Locations.swift in Sources */,
 				5C65704225D084A300FDE9C0 /* trackerApp.swift in Sources */,
 			);
